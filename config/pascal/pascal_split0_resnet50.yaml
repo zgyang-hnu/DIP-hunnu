@@ -32,8 +32,8 @@ TRAIN:
   manual_seed: 321
   print_freq: 5
   save_freq: 20
-  save_path: /home/vision/yzg/temp/FEWDomain-City2BDD-ResNet101-5shot0.3 #FEWDomain-Baseline-FRM-correct-0.1sploss
-  weight: #/home/vision/yzg/temp/FEWDomain-City2BDD-ResNet101-5shot0.3/final.pth  #./initmodel/vgg16_bn.pth' #'/opt/temp/FEWDomain/epoch50.pth' #load weight for fine-tuning or testing
+  save_path: /home/vision/yzg/temp/FEWDomain-City2BDD-ResNet101-5shot #FEWDomain-Baseline-FRM-correct-0.1sploss
+  weight: #/home/vision/yzg/temp/FEWDomain-City2BDD-ResNet101-5shot/final.pth  #./initmodel/vgg16_bn.pth' #'/opt/temp/FEWDomain/epoch50.pth' #load weight for fine-tuning or testing
   resume:  # path to latest checkpoint (default: none)
   evaluate: True
   split: 0
