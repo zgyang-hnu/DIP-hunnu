@@ -12,7 +12,7 @@ steps, we propose to replace the appeared class labels with their entry indices 
 
 # Train
 ## 1 Prepare the data  
-You need first to download the dataset (e.g., GTA5, SYNTHIA, Cityscapes, BDD100K) used in this project by yourself.  After that, you may need to change the dataset path to your path in the trainDIP.py. 
+You need first to download the dataset (e.g., GTA5, SYNTHIA, Cityscapes, BDD100K) used in this project by yourself.  After that, you may need to change the dataset path to your downloaded path in the trainDIP.py. 
 
 ## 2 training setups
 The training setups such as learning rate, batch size, the path where the model saved and loaded are all located in .yaml file in the the config/pascal path.
