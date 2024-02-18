@@ -15,10 +15,10 @@ steps, we propose to replace the appeared class labels with their entry indices 
 You need first to download the dataset (e.g., GTA5, SYNTHIA, Cityscapes, BDD100K) used in this project by yourself.  After that, you may need to change the dataset path to your downloaded path in the trainDIP.py. 
 
 ## 2 training setups
-The training setups such as learning rate, batch size, the path where the model saved and loaded are all located in .yaml file in the the config/pascal path.
+The training setups such as learning rate, batch size, the path where the model saved and loaded are all located in the .yaml file in the config/pascal path.
 
 ## 3 training
-Before running the trainDIP.py, activate the corresponding dataloader for different adaptation tasks.
+Before running the trainDIP.py, you should activate the corresponding dataloader for different adaptation tasks.
 For example, for the GTA5-to-Cityscapes adaptation task, you should activate the "dataset.CityGTA5NEW" dataloader for training.
 
 # Test
