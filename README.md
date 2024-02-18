@@ -11,8 +11,9 @@ steps, we propose to replace the appeared class labels with their entry indices 
 ![image](https://github.com/zgyang-hnu/DIP-hunnu/blob/main/Framework.jpg)
 
 # Train
-## 1 Prepare the data  
-You need first to download the dataset (e.g., GTA5, SYNTHIA, Cityscapes, BDD100K) used in this project by yourself.  After that, you may need to change the dataset path to your downloaded path in the trainDIP.py. 
+## 1 Prepare the data 
+We have conducted three different adaptation task in this project, including  GTA5-to-Cityscapes, SYNTHIA-to-Cityscapes and Cityscapes-to-BDD100K.
+Thus, You need first to download the dataset (e.g., GTA5, SYNTHIA, Cityscapes, BDD100K) used in this project by yourself.  After that, you may need to change the dataset path to your downloaded path in the trainDIP.py. 
 
 ## 2 training setups
 The training setups such as learning rate, batch size, the path where the model saved and loaded are all located in the .yaml file in the config/pascal path.
