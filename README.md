@@ -28,7 +28,7 @@ For example, for the GTA5-to-Cityscapes adaptation task, you should activate the
 ## Get the class prototypes
 Run the getsupp_pro.py, which reads the support images and extracted different class prototypes (class number * feature vectors) to a local pt file.
 
-## Test
+## Inference
 Run the testDIP.py, which reads the class prototypes from the local pt file, and then perform prototype-based semantic segmentation
 
 # Pre-trained VGG ResNet
